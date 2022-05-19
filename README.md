@@ -2,14 +2,23 @@
 Description
 =============
 
-#### - RTSP (Real Time Streaming Protocol)
-  -  a perception-based model that considers image degradation as perceived change in structural information, while also incorporating important perceptual phenomena, including both luminance masking and contrast masking terms.
+#### - Frame difference
+  - How different are the pixel values and structures of the two images?
+
+#### - SSIM (Structural Similarity Index Measure)
+  -  A perception-based model that considers image degradation as perceived change in structural information, while also incorporating important perceptual phenomena, including both luminance masking and contrast masking terms.
+  -  More details: https://en.wikipedia.org/wiki/Structural_similarity
 
 Contents
 =============
 
-#### - Frame di
-  - Simple RTSP streaming code using PyAV in jupyter notebook
+#### - Computing frame difference between current frame and previous frame or first frame
+  - Read video
+  - Comparision current frame with previous frame or first frame 
+    - Frame difference score represented as SSIM (Structural Similarity Index Measure)
+    - 'Score = 1' means that current frame and frame to compare are perfecly same
+  - Filtering by score threshold
+  - Visualization of bar chart using frame difference scores
 
 References
 =============
