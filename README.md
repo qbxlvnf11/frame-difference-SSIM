@@ -2,6 +2,8 @@
 Description
 =============
 
+<img src="https://user-images.githubusercontent.com/52263269/98573579-5c431280-22fa-11eb-8504-381f52b7b29f.png" width="20%"></img>
+
 #### - Frame difference
   - How different are the pixel values and structures of the two images?
 
