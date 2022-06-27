@@ -2,8 +2,6 @@
 Description
 =============
 
-<img src="https://user-images.githubusercontent.com/52263269/176017021-514af297-0bba-4909-85b1-2629a7014586.png" width="45%"></img>
-
 #### - Frame difference
   - How different are the pixel values and structures of the two images?
 
@@ -13,6 +11,8 @@ Description
 
 Contents
 =============
+
+<img src="https://user-images.githubusercontent.com/52263269/176017021-514af297-0bba-4909-85b1-2629a7014586.png" width="45%"></img>
 
 #### - Computing frame difference between current frame and previous frame or first frame
   - Read video
